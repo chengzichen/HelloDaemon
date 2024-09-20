@@ -4,7 +4,8 @@ import android.app.*;
 import android.content.*;
 import android.content.pm.*;
 import android.os.*;
-import android.support.annotation.*;
+
+import androidx.annotation.Nullable;
 
 public abstract class AbsWorkService extends Service {
 
@@ -32,7 +33,8 @@ public abstract class AbsWorkService extends Service {
      * @return 任务正在运行, true; 任务当前不在运行, false; 无法判断, 什么也不做, null.
      */
     public abstract Boolean isWorkRunning(Intent intent, int flags, int startId);
-    @Nullable public abstract IBinder onBind(Intent intent, Void alwaysNull);
+    @Nullable
+    public abstract IBinder onBind(Intent intent, Void alwaysNull);
     public abstract void onServiceKilled(Intent rootIntent);
 
     /**

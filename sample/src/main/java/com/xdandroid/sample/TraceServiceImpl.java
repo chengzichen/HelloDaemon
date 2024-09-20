@@ -1,7 +1,11 @@
 package com.xdandroid.sample;
 
-import android.content.*;
-import android.os.*;
+import android.app.PendingIntent;
+import android.app.Notification;
+import android.content.Intent;
+import android.os.IBinder;
+
+import androidx.core.app.NotificationCompat;
 
 import com.xdandroid.hellodaemon.*;
 

@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloDaemon.iml" filepath="$PROJECT_DIR$/HelloDaemon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hellodaemon/hellodaemon.iml" filepath="$PROJECT_DIR$/hellodaemon/hellodaemon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HelloDaemon.iml" filepath="$PROJECT_DIR$/.idea/HelloDaemon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hellodaemon/HelloDaemon.hellodaemon.iml" filepath="$PROJECT_DIR$/.idea/modules/hellodaemon/HelloDaemon.hellodaemon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hellodaemon/HelloDaemon.hellodaemon.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/hellodaemon/HelloDaemon.hellodaemon.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hellodaemon/HelloDaemon.hellodaemon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hellodaemon/HelloDaemon.hellodaemon.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hellodaemon/HelloDaemon.hellodaemon.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/hellodaemon/HelloDaemon.hellodaemon.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/HelloDaemon.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/HelloDaemon.sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/HelloDaemon.sample.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/HelloDaemon.sample.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/HelloDaemon.sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/HelloDaemon.sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/HelloDaemon.sample.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/HelloDaemon.sample.unitTest.iml" />
     </modules>
   </component>
 </project>
